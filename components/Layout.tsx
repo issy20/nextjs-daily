@@ -42,7 +42,7 @@ export const Layout: NextPage<Props> = ({ children, title = "HP" }) => {
 					</div>
 				</nav>
 			</header>
-			<main className="flex flex-1 justify-center items-center flex-col w-screen sm:px-20 px-14 ">
+			<main className="flex flex-1 justify-center items-center flex-col w-screen sm:px-20 px-14 bg-white">
 				{children}
 			</main>
 			<footer className="w-full h-12 flex justify-center items-center border-t bg-gray-50  dark:bg-gray-800 dark:text-gray-100 dark:border-gray-700">
