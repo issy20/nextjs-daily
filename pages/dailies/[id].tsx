@@ -100,7 +100,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 		props: {
 			daily,
 		},
-		revalidate: 100,
+		revalidate: 5,
 	};
 };
 
