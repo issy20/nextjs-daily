@@ -25,7 +25,9 @@ export async function getAllDailyIds() {
 
 	return dailies.map((a) => {
 		return {
-			params: { id: String(a.id) },
+			params: {
+				id: String(a.id),
+			},
 		};
 	});
 }
